@@ -50,7 +50,7 @@ npm run prettier
 just pass the correct filename, width and height. Read use cases for more info.
 
 ```ssh
-http:\\localhost:3000?filename={file_name}&width={width}&height={height}
+http:\\localhost:3000/images?filename={file_name}&width={width}&height={height}
 ```
 
 ## Use cases
