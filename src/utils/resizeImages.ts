@@ -1,7 +1,7 @@
 import { Response } from 'express';
 import sharp from 'sharp';
 
-const sharpOptions: sharp.ResizeOptions = {
+export const sharpOptions: sharp.ResizeOptions = {
   kernel: sharp.kernel.nearest,
   fit: 'contain',
   position: 'right top',
